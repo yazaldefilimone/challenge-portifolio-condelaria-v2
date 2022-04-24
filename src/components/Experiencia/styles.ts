@@ -1,5 +1,7 @@
-import styled from 'styled-components';
-
+import styled, { StyledProps } from 'styled-components';
+interface NavegationProps {
+  active: number;
+}
 export const ExperienciaContainer = styled.article`
   width: 100%;
   background-color: var(--dark-color);
@@ -25,8 +27,9 @@ export const ExperienciaNavegation = styled.nav`
       min-width: 175px;
       padding: 0.8rem 2rem;
       display: inline-block;
+      cursor: pointer;
     }
-    li:nth-child(4) {
+    li:nth-child(${(props: StyledProps<NavegationProps>) => props.active}) {
       a {
         color: var(--white-color);
         background: var(--dark-color-alt);

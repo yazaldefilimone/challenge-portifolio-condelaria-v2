@@ -5,6 +5,7 @@ import { Home } from './components/Home';
 
 import GlobalStyles from './styles/globalStyle';
 import { Experiencia } from './components/Experiencia';
+import { Projectos } from './components/Projectos';
 
 export const App: FunctionComponent = () => {
   return (
@@ -14,6 +15,7 @@ export const App: FunctionComponent = () => {
         <Home />
         <Sobre />
         <Experiencia />
+        <Projectos />
       </main>
       <GlobalStyles />
     </Fragment>
