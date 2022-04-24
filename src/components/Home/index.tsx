@@ -1,7 +1,7 @@
 import React, { FunctionComponent } from 'react';
-import { HomeContainer, HomeContent, HomeData, HomeWrapper } from './styles';
+import { HomeContainer, HomeContent, HomeWrapper } from './styles';
 
-import { ReactComponent as Looper } from '../../assets/icons/Looper.svg';
+// import { ReactComponent as Looper } from '../../assets/icons/Looper.svg';
 import looper from '../../assets/icons/Looper.svg';
 import github from '../../assets/icons/github.svg';
 import linkdin from '../../assets/icons/linkedin.svg';

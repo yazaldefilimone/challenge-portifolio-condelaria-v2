@@ -1,4 +1,5 @@
 import React, { Fragment, FunctionComponent } from 'react';
+import { About } from './components/About';
 import { Header } from './components/Header';
 import { Home } from './components/Home';
 
@@ -10,6 +11,7 @@ export const App: FunctionComponent = () => {
       <Header />
       <main>
         <Home />
+        <About />
       </main>
       <GlobalStyles />
     </Fragment>
