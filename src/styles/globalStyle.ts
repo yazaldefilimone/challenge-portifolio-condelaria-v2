@@ -101,5 +101,18 @@ button{
 main {
   overflow: hidden;
 }
+::-webkit-scrollbar{
+  width:.5rem;
+  border-radius:.5rem;
+  background-color:var(--dark-color);
+}
+::-webkit-scrollbar-thumb{
+  border-radius:.5rem;
+  background-color:var(--color);
+}
+::-webkit-scrollbar-thumb:hover{
+  border-radius:.5rem;
+  background-color:var(--color-2);
+}
 
 `;

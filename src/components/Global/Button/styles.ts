@@ -13,4 +13,5 @@ export const Container = styled.button`
   border: 2px solid var(--color);
   border-radius: 0.3rem;
   font-weight: var(--font-semi-bold);
+  /* border-image: linear-gradient(45deg, var(--color), var(--color-2)); */
 `;

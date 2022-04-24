@@ -22,13 +22,18 @@ export const ExperienciaNavegation = styled.nav`
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+    li {
+      transition: 0.3s;
+    }
     a {
       color: var(--gray-color);
       min-width: 175px;
       padding: 0.8rem 2rem;
       display: inline-block;
       cursor: pointer;
+      transition: 0.3s;
     }
+
     li:nth-child(${(props: StyledProps<NavegationProps>) => props.active}) {
       a {
         color: var(--white-color);
@@ -43,6 +48,8 @@ export const ExperienciaContent = styled.section`
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  transition: 0.3s;
+
   div {
     display: flex;
     gap: 4rem;
