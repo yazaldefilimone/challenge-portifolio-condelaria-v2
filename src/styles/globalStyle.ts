@@ -14,6 +14,7 @@ export default createGlobalStyle`
     --header-height:3rem;
 
   --body-font: "Inter", Arial, sans-serif;
+  --bigest-font-size:2.25rem;
   --h1-font-size: 1.5rem;
   --h2-font-size: 1.25rem;
   --h3-font-size: 1rem;
@@ -33,6 +34,7 @@ export default createGlobalStyle`
 
 @media screen and (min-width: 968px) {
   :root {
+    --bigest-font-size:3.25rem;
     --h1-font-size: 2.25rem;
     --h2-font-size: 1.5rem;
     --h3-font-size: 1.25rem;
