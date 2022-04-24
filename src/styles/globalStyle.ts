@@ -1,14 +1,16 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components';
 
 export default createGlobalStyle`
   :root {
     --frist-color: #00d2df;
     --frist-color-alt: #eccb39;
+    --color:#9358f1;
+    --color-2:#6518B4;
     --dark-color: #121212;
     --dark-color-alt:#151515;
     --second-color: #15181f;
     --gray-color:#c4c4c4;
-    --white-color:#fff;
+    --white-color:#E6E7E9;
     --header-height:3rem;
 
   --body-font: "Inter", Arial, sans-serif;
@@ -22,6 +24,7 @@ export default createGlobalStyle`
   /*========== Font weight ==========*/
   --font-medium: 500;
   --font-semi-bold: 600;
+  --font-bold: 800;
 
   /*========== z index ==========*/
   --z-tooltip: 10;
@@ -73,10 +76,13 @@ img {
   max-width: 100%;
   height: auto;
 }
+button{
+  cursor:pointer;
+}
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
-  max-width: 1024px;
+  max-width: 1064px;
   padding-right: 1.5rem;
   padding-left: 1.5rem;
   margin:0 auto;
