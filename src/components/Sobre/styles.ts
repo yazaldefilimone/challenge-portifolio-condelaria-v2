@@ -1,33 +1,32 @@
 import styled from 'styled-components';
 
-export const AboutContainer = styled.article`
+export const SobreContainer = styled.article`
   width: 100%;
   background-color: var(--dark-color-alt);
 `;
-export const AboutWrapper = styled.div`
+export const SobreWrapper = styled.div`
   grid-template-columns: 1fr 1fr;
   place-items: center;
 `;
-export const AboutData = styled.div`
+export const SobreData = styled.div`
   width: 20rem;
   height: 390px;
-  border-left: 4px solid var(--frist-color);
-  padding-left: 5px;
   img {
     width: 100%;
     height: 100%;
     border-radius: 0.4rem;
+    border-left: 5px solid var(--frist-color);
     object-fit: cover;
   }
 `;
 
-export const AboutContent = styled.section`
+export const SobreContent = styled.section`
   display: flex;
   flex-direction: column;
   gap: 2rem;
   padding: 0.5rem;
   h2 {
-    font-size: var(--h1-font-size);
+    font-size: var(--h2-font-size);
     font-weight: var(--font-medium);
   }
   > div {
@@ -38,6 +37,7 @@ export const AboutContent = styled.section`
 
     p {
       line-height: 1.6;
+      color: var(--gray-color);
     }
     ul {
       display: flex;
@@ -46,7 +46,7 @@ export const AboutContent = styled.section`
     }
   }
 `;
-export const AboutButton = styled.div`
+export const SobreButton = styled.div`
   display: flex;
   align-items: center;
   gap: 1rem;

@@ -9,19 +9,19 @@ import { ReactComponent as facebook } from '../../assets/icons/facebook.svg';
 import { ReactComponent as Download } from '../../assets/icons/download.svg';
 import { ReactComponent as Mail } from '../../assets/icons/mail.svg';
 
-import { AboutContainer, AboutContent, AboutData, AboutWrapper, AboutButton } from './styles';
+import { SobreContainer, SobreContent, SobreData, SobreWrapper, SobreButton } from './styles';
 import { Button } from '../Global/Button';
 
-export const About: FunctionComponent = () => {
+export const Sobre: FunctionComponent = () => {
   const socialMedia = [youtube, twitter, twitch, codepen, facebook];
 
   return (
-    <AboutContainer className="section">
-      <AboutWrapper className="container grid">
-        <AboutData>
+    <SobreContainer className="section">
+      <SobreWrapper className="container grid">
+        <SobreData>
           <img src={profil} alt="porfil" />
-        </AboutData>
-        <AboutContent>
+        </SobreData>
+        <SobreContent>
           <h2>sobre mim</h2>
           <div>
             <h3>Inhambane city, Mocambique</h3>
@@ -40,7 +40,7 @@ export const About: FunctionComponent = () => {
                 ))}
               </ul>
             </div>
-            <AboutButton>
+            <SobreButton>
               <Button border={true}>
                 <Download />
                 Curriculo
@@ -49,10 +49,10 @@ export const About: FunctionComponent = () => {
                 <Mail />
                 E-mail
               </Button>
-            </AboutButton>
+            </SobreButton>
           </div>
-        </AboutContent>
-      </AboutWrapper>
-    </AboutContainer>
+        </SobreContent>
+      </SobreWrapper>
+    </SobreContainer>
   );
 };

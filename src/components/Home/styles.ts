@@ -4,7 +4,7 @@ interface Props {
 }
 export const HomeContainer = styled.article`
   width: 100%;
-  height: 80vh;
+  height: 70vh;
   background-color: var(--dark-color);
   background-image: url(${(props: StyledProps<Props>) => (props.img ? props.img : '')});
   background-position: right;
@@ -17,7 +17,7 @@ export const HomeWrapper = styled.article`
   /* grid-template-columns: 1fr
   place-items: center; */
   padding: 3rem;
-  margin-top: 5%;
+  margin-top: 2%;
 `;
 export const HomeContent = styled.article`
   align-self: left;

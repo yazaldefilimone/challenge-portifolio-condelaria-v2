@@ -96,7 +96,7 @@ button{
 }
 
 .section {
-  padding: 4.5rem 0 2rem;
+  padding: 4.5rem 0;
 }
 main {
   overflow: hidden;

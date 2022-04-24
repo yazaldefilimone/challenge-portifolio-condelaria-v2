@@ -1,9 +1,10 @@
 import React, { Fragment, FunctionComponent } from 'react';
-import { About } from './components/About';
+import { Sobre } from './components/Sobre';
 import { Header } from './components/Header';
 import { Home } from './components/Home';
 
 import GlobalStyles from './styles/globalStyle';
+import { Experiencia } from './components/Experiencia';
 
 export const App: FunctionComponent = () => {
   return (
@@ -11,7 +12,8 @@ export const App: FunctionComponent = () => {
       <Header />
       <main>
         <Home />
-        <About />
+        <Sobre />
+        <Experiencia />
       </main>
       <GlobalStyles />
     </Fragment>
