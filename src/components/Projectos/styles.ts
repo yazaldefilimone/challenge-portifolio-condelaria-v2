@@ -6,16 +6,21 @@ export const ProjectosContainer = styled.article`
 `;
 export const ProjectosContent = styled.article`
   grid-template-columns: repeat(2, 1fr);
-  gap: 3rem;
-  margin-top: 2rem;
+  @media screen and (max-width: 770px) {
+    grid-template-columns: 1fr;
+  }
   > div {
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 1rem;
   }
 `;
 
-export const ProjectosWrapper = styled.article``;
+export const ProjectosWrapper = styled.article`
+  h2 {
+    margin-bottom: 2.5rem;
+  }
+`;
 
 export const ProjectosData = styled.article`
   display: flex;
@@ -46,6 +51,7 @@ export const ProjectosData = styled.article`
     border-radius: 0.3rem;
     font-weight: var(--font-semi-bold);
     /* border-image: linear-gradient(45deg, var(--color), var(--color-2)); */
+    border-image: var(--gradient-purple);
   }
 `;
 export const ProjectosBG = styled.article`

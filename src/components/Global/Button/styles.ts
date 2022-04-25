@@ -1,5 +1,7 @@
-import styled from 'styled-components';
-
+import styled, { StyledProps } from 'styled-components';
+interface ContainerProps {
+  border: boolean;
+}
 export const Container = styled.button`
   display: flex;
   align-items: center;
@@ -10,8 +12,8 @@ export const Container = styled.button`
   color: var(--white-color);
   font-size: var(--normal-font-size);
   padding: 0.5rem 2rem;
-  border: 2px solid var(--color);
-  border-radius: 0.3rem;
+  border: 2px solid red;
+  border-radius: 0.4rem;
   font-weight: var(--font-semi-bold);
-  /* border-image: linear-gradient(45deg, var(--color), var(--color-2)); */
+  border-image: ${(props: StyledProps<ContainerProps>) => (props.border ? 'var(--gradient-pink) ' : ' var(--gradient-purple) ')};
 `;

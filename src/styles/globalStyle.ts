@@ -6,6 +6,8 @@ export default createGlobalStyle`
     --frist-color-alt: #eccb39;
     --color:#9358f1;
     --color-2:#6518B4;
+    --gradient-pink: linear-gradient(45deg,#D24074 ,#6518B4 ) 1;
+    --gradient-purple: linear-gradient(45deg,#9358F1 ,#10D7E2 ) 1;
     --dark-color: #121212;
     --dark-color-alt:#151515;
     --second-color: #15181f;

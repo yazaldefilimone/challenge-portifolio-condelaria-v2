@@ -8,6 +8,9 @@ export const ExperienciaContainer = styled.article`
 `;
 export const ExperienciaWrapper = styled.div`
   grid-template-columns: 1fr 2fr;
+  @media screen and (max-width: 770px) {
+    grid-template-columns: 1fr;
+  }
   place-items: center;
 `;
 export const ExperienciaNavegation = styled.nav`

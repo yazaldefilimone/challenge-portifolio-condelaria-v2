@@ -16,7 +16,7 @@ export const Sobre: FunctionComponent = () => {
   const socialMedia = [youtube, twitter, twitch, codepen, facebook];
 
   return (
-    <SobreContainer className="section">
+    <SobreContainer className="section" id="sobre%20mim">
       <SobreWrapper className="container grid">
         <SobreData>
           <img src={profil} alt="porfil" />
@@ -41,13 +41,13 @@ export const Sobre: FunctionComponent = () => {
               </ul>
             </div>
             <SobreButton>
-              <Button border={true}>
+              <Button border={false}>
                 <Download />
                 Curriculo
               </Button>
               <Button border={true}>
                 <Mail />
-                E-mail
+                Email
               </Button>
             </SobreButton>
           </div>

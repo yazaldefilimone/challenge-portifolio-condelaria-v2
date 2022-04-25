@@ -17,7 +17,7 @@ export const Experiencia: FunctionComponent = () => {
   }
 
   return (
-    <ExperienciaContainer className="section">
+    <ExperienciaContainer className="section" id="experiencia">
       <ExperienciaWrapper className="container grid">
         <ExperienciaNavegation active={indexActive}>
           <h2>Experiencia</h2>

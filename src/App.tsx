@@ -6,6 +6,7 @@ import { Home } from './components/Home';
 import GlobalStyles from './styles/globalStyle';
 import { Experiencia } from './components/Experiencia';
 import { Projectos } from './components/Projectos';
+import { Footer } from './components/Footer';
 
 export const App: FunctionComponent = () => {
   return (
@@ -17,6 +18,7 @@ export const App: FunctionComponent = () => {
         <Experiencia />
         <Projectos />
       </main>
+      <Footer />
       <GlobalStyles />
     </Fragment>
   );

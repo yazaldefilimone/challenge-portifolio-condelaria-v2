@@ -9,7 +9,7 @@ import { Button } from '../Global/Button';
 
 export const Home: FunctionComponent = () => {
   return (
-    <HomeContainer img={looper} className="section">
+    <HomeContainer id="home" img={looper} className="section">
       <HomeWrapper className="container grid">
         <HomeContent>
           <span>Ola, eu sou</span>
@@ -20,7 +20,7 @@ export const Home: FunctionComponent = () => {
               <img src={github} alt="github" />
               Github
             </Button>
-            <Button border={true}>
+            <Button border={false}>
               <img src={linkdin} alt="linkdin" />
               Linkedin
             </Button>

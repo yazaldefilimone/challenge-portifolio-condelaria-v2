@@ -42,7 +42,7 @@ const projects = [
 ];
 export const Projectos: FunctionComponent = () => {
   return (
-    <ProjectosContainer className="section">
+    <ProjectosContainer id="projectos" className="section">
       <ProjectosWrapper className="container">
         <h2>Projectos</h2>
         <ProjectosContent className="container grid">

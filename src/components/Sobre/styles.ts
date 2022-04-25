@@ -5,12 +5,19 @@ export const SobreContainer = styled.article`
   background-color: var(--dark-color-alt);
 `;
 export const SobreWrapper = styled.div`
+  @media screen and (max-width: 770px) {
+    grid-template-columns: 1fr;
+  }
   grid-template-columns: 1fr 1fr;
   place-items: center;
 `;
 export const SobreData = styled.div`
   width: 20rem;
   height: 390px;
+  @media screen and (max-width: 770px) {
+    width: 15rem;
+    height: 220px;
+  }
   img {
     width: 100%;
     height: 100%;
